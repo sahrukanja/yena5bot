@@ -9,27 +9,27 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="EmOTY0ff98gBOzHrozA9.3UrGMEjECFh9gbFk6EFekq.8f+lmPRu9oJtzkNP0oWgkiEiApEJxWKQh00gGmwDQbg=")
+cl.login(token="ErfxZBFu6iP2TZBGdAd0.x1BTzXeup9CXgRy8mCEjqa.CTOB3O8/nLm45NI7mseN4eooT40zwfIQZVbhhEcoXQY=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Em6ddrL1MJ6NA8lo5ET3.9qPM7NC2vWiRtQTZ/x4SyW.lluqwyYZ/dr1bkPZJkDQuK9PGevG3JhKPbANAwQqKYA=")
+ki.login(token="ErTiYbJr7LVsCfvLXyb2.X+8NWqB1KSv14XpEP4vXuG.6YcuwoAJ/osPUPwHucpy/gfhLNm6ibUFjyIEMdlgSmY=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="Em8VjkYiXCe4CDYlQZJa.Ii7xOC92aAdE6psIz8+ZUG.SQtvw3+ATgu4DN8w4JS0As8QVTQ1C2iijTvpaiGrcns=")
+kk.login(token="Ero8D14Sg8XkPTkeVHC7.yWsnCHc5+xLMYVt+Dy4DzW.aO/3+wsMG6b0urdF9vvuJbat5YtnepcYXVdOyoAbR3Q=")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Emf6YqUxh3oBCRLOOM46.xkaL7HAdfdzB4bRIIC04jG./yKZfSTJf6XrWxGZKKiX++X6FmuKNhjQ8JIDBaX57rQ=")
+ks.login(token="ErFZypXhKkymYSOPO60e.IKUNvTt9recbT1PQTceKJG.rpGVvZplRcI9COoMbpUX+y/lpcyJo4DkfwMKolGX9yM=")
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EmvQ8lL3iQ3xbpdJ9t0c.aYbkAqXV5gf9Eu4MbqlVBa.gNoJ1W7dOQAdGVPsSIwjYPzfnWdBPJrmtDqUNdSHrIE=")
+kc.login(token="ErTEURf8r0Q47yYGhHud.UdOEshX6i9uwwi7Q0jFYRq.N1Q/AycV1FDx65m13a72/TlzgNpjTfZUD5dN3O2n+FA=")
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(token="EmjT3HQN0KdUVMvBpZn8.MQvnSQmxLZyecm+cYLEska.cMmEziWE4F4O5vTwn7B9dB9G+BV5DYtBmElhV+7989A=")
+ka.login(token="Er5tjn9aPmo9TPMav6yc.RjjX/PW5a9d/mkreQyncZa.kl/k+v/UIsE+L6Bs/Bae0n5MURAu5eAPh4ElWEHiHAI=")
 ka.loginResult()
 
 print "login success"
@@ -107,7 +107,7 @@ Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
 
 Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid]
-admin = ["udee46099e25e71f1fd1817cae9e7c429","u7fa2ce9fe592f5f02941fad640e1868e"]
+admin = ["u5f56ed6711143fd7311ab63c31c78940","u61a9b5ce8de3eb51a859410c9834e5c8"]
 
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
@@ -126,13 +126,13 @@ autoinvite = []
 autoleaveroom = []
 
 
-admins = ["udee46099e25e71f1fd1817cae9e7c429"]
-Rx5 = ["u7fa2ce9fe592f5f02941fad640e1868e"]
-Rx4 = ["uf50a66ee773657022b4eab73f97e2c63"]
-Rx3 = ["u888ed7a1cf7601a0dee8f4a267cff3ba"]
-Rx2 = ["u5ca025ee168314365be01ae289cd3826"]
+admins = ["u5f56ed6711143fd7311ab63c31c78940"]
+Rx5 = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+Rx4 = ["u61a9b5ce8de3eb51a859410c9834e5c8"]
+Rx3 = ["u61a9b5ce8de3eb51a859410c9834e5c8"]
+Rx2 = ["u61a9b5ce8de3eb51a859410c9834e5c8"]
 
-Rx1 = ["u03204a690c6fe4617d794e260502ef6c"]
+Rx1 = ["u61a9b5ce8de3eb51a859410c9834e5c8"]
 Administrator = admins + Rx5 + Rx4 + Rx3 + Rx2 + Rx1
 AS = Rx2 + Rx1 + Rx3 + Rx4 + Rx5
 adminsA = admins + Rx3 + Rx5
